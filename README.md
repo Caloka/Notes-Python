@@ -14,6 +14,8 @@ print(palavra[::-1])
 ~~~~python
 '''SET'''
 # Para removar elementos duplicados de uma lista, usa-se o comando 'set'.
+List = [1,2,3,4,3,3]
+print(set(List))
 tipo_set = {1,2,3,4} # Não podem ser acessados como as lista são acessadas, exemplo: tipo_set[0]  Não se pode fazer isso!
 # Unindo dois set's
 set1 = {1,2}
